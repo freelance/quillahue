@@ -1,0 +1,18 @@
+@cabana.servicios.each do |servicio|
+
+
+<div id="top-sub-menu">
+  <div class="menu">
+    <ul>
+      <li><%= servicio.nombre %></li>
+      link_to "Cipres", :controller => "cabanas", :action => "index" %></li>
+      <li><%= link_to "Lenga", :controller => "servicios", :action => "index" %></li>
+      <li><%= link_to "Maiten", :controller => "tarifas", :action => "index" %></li>
+      <li><%= link_to "Coihue", :controller => "galerias", :action => "index" %></li>
+    </ul>
+  </div>
+</div>
+
+end
+
+

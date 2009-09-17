@@ -1,0 +1,15 @@
+<div id="contentarea">
+
+TEXTO
+</div>
+
+<div id="sidebar">
+    <h2>Informacion</h2>
+  <% if !@ubicacions.blank? %>
+  <% for ubicacion in @ubicacions %>
+  <%= ubicacion.direccion %>
+  <% end %>
+  <% else %>
+  No informations.
+  <% end %>
+</div>
